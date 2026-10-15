@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angelo Rojas Velasquez | Portafolio de Diseño Web</title>
+  <meta name="description" content="Portafolio de Angelo Rojas Velasquez, estudiante de Ingeniería de Sistemas e Informática. Prácticas del curso Diseño Web hechas con HTML5 y CSS3.">
+  <meta name="keywords" content="Angelo Rojas Velasquez, portafolio, diseño web, HTML5, CSS3, UCH, GitHub Pages">
+  <meta name="author" content="Angelo Rojas Velasquez">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="cabecera">
+    <a href="#inicio" class="logo">Mi <span>Portafolio</span></a>
+    <nav id="menu">
+      <a href="#inicio" class="enlace">Inicio</a>
+      <a href="#proyectos" class="enlace">Proyectos</a>
+      <a href="#multimedia" class="enlace">Multimedia</a>
+      <a href="#contacto" class="enlace">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="principal">
+    <section id="inicio" class="seccion hero">
+      <h1>Hola soy Angelo Rojas Velasquez</h1>
+      <p>Estudio Ingeniería de Sistemas e Informática en la UCH. Esta página la cree con el fin de poner en practica lo que vimos en clase con HTML5 y CSS3.</p>
+      <a href="#proyectos" class="boton">Ver mis prácticas</a>
+    </section>
+
+    <section id="proyectos" class="seccion">
+      <h2>Mis Aprendizajes</h2>
+      <div class="contenedor">
+        <div class="caja">
+        <img src="img/seo.jpg" alt="Diagrama de SEO con iconos conectados alrededor de la palabra SEO" class="mini">
+        <h3>Estructura y SEO básico</h3>
+        <p>Todo documento HTML empieza con DOCTYPE y tiene head y body. En el head puse el title, el charset y los meta description, keywords y viewport para que los buscadores entiendan la página.</p>
+        </div>
+        <div class="caja">
+        <img src="img/css.jpg" alt="Logotipo de CSS3" class="mini">
+        <h3>Aplicación de CSS3</h3>
+        <p>sirve para diseñar, dar estilo y dar la presentación visual de las páginas web escritas en HTML,mostrando los bordes,colores y tamaños de letra e imagen</p>
+        </div>
+        <div class="caja">
+        <img src="img/html.jpg" alt="Estructura de una página en HTML5: header, nav, article, section, aside y footer" class="mini">
+        <h3>Estructura de una página HTML</h3>
+        <p>Aprendí que todo documento empieza con DOCTYPE y la etiqueta html. Dentro va el head, con el título, el charset y los meta de SEO, y luego el body,como se puede apreciar en la pantalla.</p>
+        </div>
+        <div class="limpiar"></div>
+
+      </div>
+    </section>
+
+    <section id="multimedia" class="seccion">
+      <h2>Multimedia</h2>
+      <div class="contenedor">
+        <div class="media-izq">
+          <h3>Audio de bienvenida</h3>
+          <audio controls preload="none">
+            <source src="media/intro-bienvenida.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+          </audio>
+        </div>
+        <div class="media-der">
+          <h3>Video de YouTube</h3>
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/EvKm8yhM7V8" title="Video de YouTube sobre HTML5" loading="lazy" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="limpiar"></div>
+      </div>
+    </section>
+
+    <section id="contacto" class="seccion">
+      <h2>Contacto</h2>
+      <p>Si quieres escribirme, mi correo es <a href="mailto:dcuccittini837@gmail.com" class="enlace-texto">dcuccittini837@gmail.com</a>.</p>
+      <a href="mailto:correo@ejemplo.com" class="boton">Enviar mensaje</a>
+    </section>
+  </main>
+
+  <footer id="pie">
+    <p>&copy; 2026 Angelo Rojas Velasquez &middot; Diseño Web &middot; UCH</p>
+  </footer>
+</body>
+</html>
